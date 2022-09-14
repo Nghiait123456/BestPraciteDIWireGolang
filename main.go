@@ -1,16 +1,17 @@
 package main
 
 func main() {
-	app, err := initApp()
-	must(err)
+	//app, err := initApp()
+	//must(err)
+	//
 
-	c, _ := ProviderC()
+	c, _ := ProviderCCCCCC()
 	c.View()
 	c.B().Show()
 	c.A().Show()
 	c.View()
 
-	must(app.Start())
+	//must(app.Start())
 
 }
 

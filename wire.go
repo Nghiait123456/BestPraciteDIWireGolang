@@ -49,7 +49,7 @@ func ProviderB() (b.BInterface, error) {
 	return &b.B{}, nil
 }
 
-func ProviderC() (c.CInterface, error) {
+func ProviderCCCCCC() (c.CInterface, error) {
 	wire.Build(
 		c.ProviderC,
 	)

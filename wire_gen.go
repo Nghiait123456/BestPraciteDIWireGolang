@@ -47,7 +47,7 @@ func ProviderB() (b.BInterface, error) {
 	return bB, nil
 }
 
-func ProviderC() (c.CInterface, error) {
+func ProviderCCCCCC() (c.CInterface, error) {
 	a2 := a.NewA2()
 	bB := b.NewB(a2)
 	cC := c.NewC(bB, a2)
